@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISTIO - A Melhor Plataforma para Vistorias Imobiliárias</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Cores principais */
+        :root {
+            --cor-laranja: #FFA500;
+            --cor-verde: #008000;
+        }
+        .bg-laranja {
+            background-color: var(--cor-laranja);
+        }
+        .bg-verde {
+            background-color: var(--cor-verde);
+        }
+        .text-laranja {
+            color: var(--cor-laranja);
+        }
+        .text-verde {
+            color: var(--cor-verde);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand text-laranja" href="#">VISTIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#como-funciona">Como Funciona</a></li>
+            <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Carrossel -->
+<div id="carrosselVistio" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carrosselVistio" data-slide-to="0" class="active"></li>
+        <li data-target="#carrosselVistio" data-slide-to="1"></li>
+        <li data-target="#carrosselVistio" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://picsum.photos/1200/500?random=1" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Gestão Completa de Vistorias</h5>
+                <p>Simplifique e automatize suas vistorias imobiliárias com o VISTIO.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=2" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Relatórios Personalizados</h5>
+                <p>Gere relatórios detalhados e profissionais com facilidade.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/500?random=3" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Acesso Seguro e Ilimitado</h5>
+                <p>Armazene suas vistorias na nuvem com total segurança.</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carrosselVistio" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carrosselVistio" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+
+<!-- Funcionalidades -->
+<section id="funcionalidades" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-verde">Funcionalidades</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://picsum.photos/100?random=4" class="rounded-circle mb-3" alt="Funcionalidade 1">
+                <h5>Automação Inteligente</h5>
+                <p>Agilize suas vistorias com processos automatizados e eficientes.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://picsum.photos/100?random=5" class="rounded-circle mb-3" alt="Funcionalidade 2">
+                <h5>Relatórios Personalizados</h5>
+                <p>Crie relatórios detalhados e personalizados conforme suas necessidades.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://picsum.photos/100?random=6" class="rounded-circle mb-3" alt="Funcionalidade 3">
+                <h5>Acesso Seguro</h5>
+                <p>Armazene e acesse suas vistorias com total segurança na nuvem.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Como Funciona -->
+<section id="como-funciona" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-laranja">Como Funciona</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>O VISTIO é uma plataforma intuitiva que permite a gestão completa de vistorias imobiliárias. Com ela, você pode:</p>
+                <ul>
+                    <li>Realizar vistorias diretamente pelo aplicativo, mesmo offline.</li>
+                    <li>Capturar fotos e vídeos detalhados do imóvel.</li>
+                    <li>Gerar laudos personalizados com poucos cliques.</li>
+                    <li>Armazenar e acessar todas as vistorias na nuvem com segurança.</li>
+                    <li>Compartilhar relatórios profissionais com clientes e equipes.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="https://picsum.photos/500/300?random=7" class="img-fluid" alt="Como Funciona o VISTIO">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Depoimentos -->
+<section id="depoimentos" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-verde">Depoimentos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"O VISTIO transformou nossa forma de realizar vistorias. A eficiência e a precisão dos relatórios são impressionantes."</p>
+                    <footer class="blockquote-footer">Cristina Acquarone, Imobiliária São Paulo</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"Desde que adotamos o VISTIO, nossos processos ficaram mais ágeis e nossos clientes mais satisfeitos."</p>
+                    <footer class="blockquote-footer">Francisco Freitas, Diretor FZ Imóveis</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">"A plataforma é intuitiva e o suporte ao cliente é excepcional. Recomendo o VISTIO a todos do setor imobiliário."</p>
+                    <footer class="blockquote-footer">Marcelo Brigido</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Planos -->
+<section id="planos" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-laranja">Planos</h2>
+        <div class="row">
+            <!-- Plano Básico -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header text-center bg-verde text-white">
+                        <h4 class="my-0 font-weight-normal">Básico</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title text-center">R$49 <small class="text-muted">/ mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Até 10 vistorias por mês</li>
+                            <li>Relatórios padrão</li>
+                            <li>Suporte via e-mail</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Plano Profissional -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header text-center bg-verde text-white">
+                        <h4 class="my-0 font-weight-normal">Profissional</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title text-center">R$99 <small class="text-muted">/ mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Até 50 vistorias por mês</li>
+                            <li>Relatórios personalizados</li>
+                            <li>Suporte prioritário</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Plano Empresarial -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header text-center bg-verde text-white">
+                        <h4 class="my-0 font-weight-normal">Empresarial</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title text-center">R$199 <small class="text-muted">/ mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Vistorias ilimitadas</li>
+                            <li>Relatórios avançados</li>
+                            <li>Suporte dedicado</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Assinar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contato -->
+<section id="contato" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-verde">Contato</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <p>&copy; 2025 VISTIO - Todos os direitos reservados.</p>
+        <p>
+            <a href="#" class="text-white">Política de Privacidade</a> |
+            <a href="#" class="text-white">Termos de Uso</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Scripts do Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
