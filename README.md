@@ -4,25 +4,32 @@ Este repositório contém as atividades desenvolvidas durante a disciplina de **
 
 ## ✅ Conteúdo
 
-### 📁 1. AreaChecker  
+### 📁 1. Baralho  
+Projeto introdutório onde aprendemos a criar um baralho simples utilizando classes básicas.  
+Objetivos:
+- Compreender a **estrutura de uma classe em Java**
+- Praticar a criação de **atributos**, **métodos** e **construtores**
+- Trabalhar com **encapsulamento**
+
+### 📁 2. Exercícios de Fixação (exercicios_fixacao_java)  
+Conjunto de pequenos exercícios propostos para fixar os conceitos estudados nas aulas anteriores.  
+Objetivos:
+- Consolidar o conhecimento sobre estruturas de controle, classes, métodos e lógica de programação
+- Praticar a construção de pequenos programas funcionais em Java
+
+### 📁 3. AreaChecker  
 Atividade voltada para o cálculo da área de formas geométricas (círculo, quadrado, triângulo, etc).  
 Objetivos:
 - Praticar a criação e uso de **interfaces** em Java
 - Compreender **herança** e **polimorfismo**
 - Aplicar corretamente os **tipos de classes** em Java
 
-### 📁 2. Registro de Alunos  
+### 📁 4. Registro de Alunos  
 Sistema simples de cadastro e listagem de alunos.  
 Objetivos:
 - Aprender o uso de **ArrayList** e **List**
 - Explorar a **biblioteca java.util**
 - Trabalhar com **manipulação de dados em memória**
-
-### 📁 3. Exercícios de Fixação (exercicios_fixacao_java)  
-Conjunto de pequenos exercícios propostos para fixar os conceitos estudados nas aulas anteriores.  
-Objetivos:
-- Consolidar o conhecimento sobre estruturas de controle, classes, métodos e lógica de programação
-- Praticar a construção de pequenos programas funcionais em Java
 
 ---
 
