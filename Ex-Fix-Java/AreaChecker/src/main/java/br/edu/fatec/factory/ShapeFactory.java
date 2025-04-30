@@ -1,4 +1,6 @@
 package br.edu.fatec.factory;
 
-public interface SHapeFactory {
+public interface ShapeFactory {
+
+    Calculable getShape(ShapeType type, Double[] values);
 }

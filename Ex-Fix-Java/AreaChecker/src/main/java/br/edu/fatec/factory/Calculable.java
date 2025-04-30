@@ -1,7 +1,7 @@
-package lp2.areachecker;
+package br.edu.fatec.factory;
 
 public interface Calculable {
 
-    Double calculateArea();
+    double calculateArea();
 
 }

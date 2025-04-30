@@ -1,13 +1,12 @@
-package lp2.areachecker;
+package br.edu.fatec.factory;
 
 public enum ShapeType {
-    Quadrado,
-    Retângulo,
-    Círculo,
-    Triângulo,
-    Paralelograma,
-    Trapézio,
-    Hexágono,
-    Losango,
-    Cubo
+    Square,
+    Rectangle,
+    Círcle,
+    Triangle,
+    Parallelogram,
+    Trapezium,
+    Hexagon,
+    Rhombus,
 }

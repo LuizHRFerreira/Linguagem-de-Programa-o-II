@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e34bc0d7-8d89-4b8b-b0f0-f64ac9da179c" name="Changes" comment="" />
+    <list default="true" id="e34bc0d7-8d89-4b8b-b0f0-f64ac9da179c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Linguagem-de-Programação-II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Hexagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Parallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Rhombus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/ShapeFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/ShapeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Trapezium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/factory/getSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/java/br/edu/fatec/main/AreaCheckerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex-Fix-Java/AreaChecker/src/test/java/br/edu/fatec/AreaCheckerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex-Fix-Java/exercicios_fixacao_java_introdutorio.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,24 +40,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2vCKCix1U3RkdNUXogDQpe98MMr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,6 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743643494863</updated>
       <workItem from="1743643499154" duration="72000" />
+      <workItem from="1745973452964" duration="25000" />
+      <workItem from="1745974262340" duration="73000" />
     </task>
     <servers />
   </component>

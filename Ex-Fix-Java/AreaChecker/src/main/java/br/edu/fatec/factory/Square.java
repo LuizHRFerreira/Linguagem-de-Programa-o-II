@@ -1,10 +1,12 @@
-package lp2.areachecker;
+package br.edu.fatec.factory;
 
-public class Squere {
+public class Square implements getSquare {
 
     private double side;
 
-    double CalculateArea() {
-        return side * side;
+    @Override
+    public double getSide(double side) {
+        this.side = side;
+        return side;
     }
 }

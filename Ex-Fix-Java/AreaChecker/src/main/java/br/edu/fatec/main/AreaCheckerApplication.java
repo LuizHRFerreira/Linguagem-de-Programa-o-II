@@ -1,14 +1,18 @@
-package lp2.areachecker;
+package br.edu.fatec.main;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import br.edu.fatec.factory.Calculable;
+import br.edu.fatec.factory.ShapeFactory;
+import br.edu.fatec.factory.ShapeFactoryImpl;
+import br.edu.fatec.factory.ShapeType;
 
-@SpringBootApplication
 public class AreaCheckerApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("AreaChecker Application Started");
+		ShapeFactoryImpl factory = new ShapeFactoryImpl();
+
+		Calculable square = factory.getShape(ShapeType.Square, new Double[]{4.0});
+		System.out.println("Área do quadrado: " + square.calculateArea());
 
 	}
 
